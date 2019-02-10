@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/MyDirectoryJDBC">
+    <Resource name="jdbc/mydirectoryDB" auth="Container"
+          type="javax.sql.DataSource"
+          driverClassName="org.apache.derby.jdbc.ClientDriver" 
+          url="jdbc:derby://localhost:1527/mydirectory"
+          user="xxx" password="yyy"
+          maxActive="8" maxIdle="4"/>    
+</Context>
